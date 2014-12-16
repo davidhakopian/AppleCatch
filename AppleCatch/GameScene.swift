@@ -27,6 +27,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let spawnForever = SKAction.repeatActionForever(spawnThenDelay)
         self.runAction(spawnForever)
         
+        /*This is a comment added by Garo */
+        
         
     }
     
