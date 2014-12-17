@@ -27,6 +27,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let spawnForever = SKAction.repeatActionForever(spawnThenDelay)
         self.runAction(spawnForever)
         
+        /*This is a comment added by Garo */
+        
         
     }
     
@@ -110,16 +112,5 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         default: return
         }
 
-    }
-    
-    
-    
-    func delay(delay:Double, closure:()->()) {
-        dispatch_after(
-            dispatch_time(
-                DISPATCH_TIME_NOW,
-                Int64(delay * Double(NSEC_PER_SEC))
-            ),
-            dispatch_get_main_queue(), closure)
     }
 }
