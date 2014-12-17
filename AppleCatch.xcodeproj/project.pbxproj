@@ -17,6 +17,7 @@
 		634E2E681A3CF7D100A87F19 /* AppleCatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E2E671A3CF7D100A87F19 /* AppleCatchTests.swift */; };
 		634E2E721A3D025E00A87F19 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E2E711A3D025E00A87F19 /* Apple.swift */; };
 		634E2E741A3D02B000A87F19 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E2E731A3D02B000A87F19 /* Background.swift */; };
+		634E2E781A412F4300A87F19 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E2E771A412F4300A87F19 /* MenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		634E2E671A3CF7D100A87F19 /* AppleCatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCatchTests.swift; sourceTree = "<group>"; };
 		634E2E711A3D025E00A87F19 /* Apple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
 		634E2E731A3D02B000A87F19 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		634E2E771A412F4300A87F19 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				634E2E4D1A3CF7D100A87F19 /* AppDelegate.swift */,
+				634E2E771A412F4300A87F19 /* MenuScene.swift */,
 				634E2E4F1A3CF7D100A87F19 /* GameScene.sks */,
 				634E2E511A3CF7D100A87F19 /* GameScene.swift */,
 				634E2E531A3CF7D100A87F19 /* GameViewController.swift */,
@@ -228,6 +231,7 @@
 				634E2E721A3D025E00A87F19 /* Apple.swift in Sources */,
 				634E2E521A3CF7D100A87F19 /* GameScene.swift in Sources */,
 				634E2E541A3CF7D100A87F19 /* GameViewController.swift in Sources */,
+				634E2E781A412F4300A87F19 /* MenuScene.swift in Sources */,
 				634E2E4E1A3CF7D100A87F19 /* AppDelegate.swift in Sources */,
 				634E2E741A3D02B000A87F19 /* Background.swift in Sources */,
 			);
@@ -423,6 +427,7 @@
 				634E2E6D1A3CF7D100A87F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		634E2E6E1A3CF7D100A87F19 /* Build configuration list for PBXNativeTarget "AppleCatchTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				634E2E701A3CF7D100A87F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
